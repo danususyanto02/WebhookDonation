@@ -15,7 +15,7 @@ ID: Yang diperlukan sebelum menggunakan kode program.
 
 * Python https://www.python.org/downloads/
 * Ngrok https://ngrok.com/download
-* Sociabuzz or Saweria Account | Akun Sociabuzzatau Saweria
+* Sociabuzz or Saweria Account | Akun Sociabuzz atau Saweria
 
 
 ## Action From Notification | Aksi Dari Notifikasi
