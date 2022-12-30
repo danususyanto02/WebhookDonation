@@ -1,3 +1,49 @@
-<!-- ABOUT THE PROJECT -->
-## About The Project
-Simple project Webhook to trigger valorant action from donation
+## About The Project | Tentang Project
+EN: Webhook Donation.
+
+ID: Webhook Donasi.
+
+Youtube: 
+
+
+
+### Prerequisites | Yang Diperlukan 
+
+EN: Required before using the program code.
+
+ID: Yang diperlukan sebelum menggunakan kode program.
+
+* Python https://www.python.org/downloads/
+* Ngrok https://ngrok.com/download
+* Sociabuzz or Saweria Account | Akun Sociabuzzatau Saweria
+
+
+## Action From Notification | Aksi Dari Notifikasi
+
+
+```
+- Donation | Donasi Rp. 0  - Rp.10.000
+    EN: Forward For 10 Second
+    ID: Jalan Maju Selama 10 Detik
+
+- Donation | Donasi Rp. 10.001  - Rp.25.000
+    EN: Dropped Weapon And Spike For 10 Second
+    ID: Menjatuhkan Senjata Dan Spike Selama 10 Detik
+
+- Donation | Donasi Rp. 25.001  - Rp.35.000
+    EN: Use Ultimate Abilites
+    ID: Menggunakan Ulti
+
+- Donation | Donasi Rp. 35.001  - Rp.50.000
+    EN: Forward For 10 Second
+    ID: Jalan Maju Selama 10 Detik
+
+- Donation | Donasi Rp. 50.001  - Rp.70.000
+    EN: Jump For 10 Second
+    ID: Lompat Selama 10 Detik
+
+- Donation | Donasi Rp. 90.000++
+    EN: Quit Valorant (ALT + F4)
+    ID: Keluar Dari Valorant (ALT + F4)
+
+```
