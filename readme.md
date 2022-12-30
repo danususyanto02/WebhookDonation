@@ -42,7 +42,7 @@ ID: Yang diperlukan sebelum menggunakan kode program.
     EN: Jump For 10 Second
     ID: Lompat Selama 10 Detik
 
-- Donation | Donasi Rp. 90.000++
+- Donation | Donasi Rp.70.001 - Rp. 100.000
     EN: Quit Valorant (ALT + F4)
     ID: Keluar Dari Valorant (ALT + F4)
 
