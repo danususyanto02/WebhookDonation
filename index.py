@@ -6,7 +6,7 @@ import pydirectinput
 from flask import Flask, request
 from kordinat import gambar 
 
-gambar('img\example.png')
+#gambar('img\example.png')
 
 app = Flask(__name__)
 
