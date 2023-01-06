@@ -1,3 +1,6 @@
+# install package
+# pip install pyautogui pyttsx3 pydirectinput flask opencv-python
+
 import pyautogui
 import time
 import pyttsx3
