@@ -1,9 +1,6 @@
 # install package
-# pip install pyautogui
-# pip install pyttsx3
-# pip install pydirectinput
-# pip install flask
-# pip install opencv-python
+# pip install pyautogui pyttsx3 pydirectinput flask opencv-python
+
 
 import pyautogui
 import pyttsx3
