@@ -1,7 +1,7 @@
 ## About The Project | Tentang Project
-EN: Webhook To Get Notification Saweria Donation.
+EN: 
 
-ID: Webhook Untuk Mendapat Notifikasi Donasi Saweria.
+ID: 
 
 Youtube: 
 
