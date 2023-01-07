@@ -12,7 +12,7 @@ import time
 
 from flask import Flask, request
 from kordinat import gambar 
-from currency import rupiah_format
+from konversi_rupiah import KonversiRupiah
 
 
 # gambar('img\example.png')
@@ -42,11 +42,11 @@ def index():
     engine.say("Ada donasi dari" + namaDonator)
     engine.runAndWait()
     engine.stop()
-
+    
     batasWaktu = time.time() + 10
 
     print('Ada donasi dari: ' + namaDonator)
-    print('Sebesar: Rp.' + rupiah_format(jumlahDonasi) )
+    print('Sebesar: Rp.' + KonversiRupiah(jumlahDonasi) )
 
     if jumlahDonasi <= 10000:
         while time.time() < batasWaktu:
