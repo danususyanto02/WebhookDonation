@@ -1,13 +1,19 @@
 # install package
-# pip install pyautogui pyttsx3 pydirectinput flask opencv-python
+# pip install pyautogui
+# pip install pyttsx3
+# pip install pydirectinput
+# pip install flask
+# pip install opencv-python
 
 import pyautogui
-import time
 import pyttsx3
 import pydirectinput
+import time
 
 from flask import Flask, request
 from kordinat import gambar 
+from currency import rupiah_format
+
 
 # gambar('img\example.png')
 
@@ -38,6 +44,9 @@ def index():
     engine.stop()
 
     batasWaktu = time.time() + 10
+
+    print('Ada donasi dari: ' + namaDonator)
+    print('Sebesar: Rp.' + rupiah_format(jumlahDonasi) )
 
     if jumlahDonasi <= 10000:
         while time.time() < batasWaktu:
@@ -85,6 +94,6 @@ def index():
     return ('success', 200)
 
 if __name__ == '__main__':
-  app.run(host='127.0.0.1', port=5000)
+  app.run(host='127.0.0.1', port=8080)
 
 
