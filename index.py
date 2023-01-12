@@ -77,7 +77,7 @@ def index():
     elif jumlahDonasi <= 70000:
           pydirectinput.press('x')
 
-    elif jumlahDonasi > 100000:
+    elif jumlahDonasi > 70000:
       pydirectinput.keyDown('alt')
       pydirectinput.keyDown('f4')
       pydirectinput.keyUp('f4')
